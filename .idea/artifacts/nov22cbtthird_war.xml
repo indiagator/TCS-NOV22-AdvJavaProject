@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="nov22cbtthird:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>nov22cbtthird</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="nov22cbtthird-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="nov22cbtthird:war exploded" />
+    </root>
+  </artifact>
+</component>
