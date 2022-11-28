@@ -10,17 +10,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="643cc6a6-45fd-4763-b723-8740dd5ab268" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tcs/model/Credential.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tcs/nov22cbtthird/LogoutServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/tcs/nov22cbtthird/SignupServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/data/credentials.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/dashboard.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/nov22cbtthird_war.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/nov22cbtthird_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/nov22cbtthird_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tcs/dao/CredentialDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tcs/dao/DbConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tcs/model/Admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tcs/model/Buyer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tcs/model/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tcs/model/OrderManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tcs/model/Organization.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tcs/model/Personnel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tcs/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tcs/model/ProductCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tcs/model/ProductOffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tcs/model/Seller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tcs/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/tcs/model/UserType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tcs/nov22cbtthird/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tcs/nov22cbtthird/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/tcs/nov22cbtthird/NextServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tcs/nov22cbtthird/NextServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/nov22cbtthird_war_exploded/WEB-INF/classes/com/tcs/nov22cbtthird/LoginServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/nov22cbtthird_war_exploded/WEB-INF/classes/com/tcs/nov22cbtthird/LoginServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/nov22cbtthird_war_exploded/WEB-INF/classes/data/credentials.txt" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/nov22cbtthird_war_exploded/WEB-INF/classes/data/credentials.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tcs/nov22cbtthird/HelloServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tcs/controller/HelloServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tcs/nov22cbtthird/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tcs/controller/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tcs/nov22cbtthird/LogoutServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tcs/controller/LogoutServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tcs/nov22cbtthird/NextServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tcs/controller/NextServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tcs/nov22cbtthird/SignupServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tcs/controller/SignupServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/tcs/nov22cbtthird/ThirdServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/tcs/controller/ThirdServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/data/credentials.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data/credentials.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,13 +46,28 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JpbToolWindowState">
+    <option name="myId2FirstActivated">
+      <map>
+        <entry key="com.haulmont.jpb.jpaPalette" value="true" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="true" />
+      </map>
+    </option>
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.haulmont.jpb.jpaPalette" value="false" />
+        <entry key="com.haulmont.jpb.jpaStructure" value="false" />
+      </map>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -48,25 +78,33 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.3954023"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;import_schema_mapping&quot;: &quot;&lt;schema-mapping&gt;\n  &lt;databases&gt;\n    &lt;list&gt;\n      &lt;schema-mapping-item&gt;\n        &lt;source-data-source-id&gt;fe73fecd-fecf-4d39-b22d-e5a3f4fa6b22&lt;/source-data-source-id&gt;\n        &lt;source-path&gt;database/&amp;quot;postgres&amp;quot;/schema/&amp;quot;public&amp;quot;&lt;/source-path&gt;\n        &lt;target-data-source-id&gt;b08784ab-292b-416e-8d5d-52bb530bfcaa&lt;/target-data-source-id&gt;\n        &lt;target-path&gt;database/&amp;quot;cbt&amp;quot;/schema/&amp;quot;public&amp;quot;&lt;/target-path&gt;\n      &lt;/schema-mapping-item&gt;\n    &lt;/list&gt;\n  &lt;/databases&gt;\n&lt;/schema-mapping&gt;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/SOftware Dev and Training Material/NewWinCode/tcsnov22/testtcs&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Artifacts&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.34615386&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.propDebugger&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
+    ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="JBoss/WildFly 26.1.2.Final" type="JBossConfiguration" factoryName="Local" APPLICATION_SERVER_NAME="JBoss/WildFly 26.1.2.Final" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="UPDATING_POLICY" value="redeploy-artifacts" />
@@ -150,6 +188,12 @@
       <updated>1668663700714</updated>
       <workItem from="1668663702458" duration="5660000" />
       <workItem from="1668721647423" duration="14927000" />
+      <workItem from="1668981660653" duration="13449000" />
+      <workItem from="1669038658666" duration="4190000" />
+      <workItem from="1669046720321" duration="651000" />
+      <workItem from="1669087082371" duration="125000" />
+      <workItem from="1669089733101" duration="1486000" />
+      <workItem from="1669587009831" duration="4344000" />
     </task>
     <servers />
   </component>
@@ -166,5 +210,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/tcs/controller/LogoutServlet.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="JBossConfiguration">
+        <watch expression="pasword" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
